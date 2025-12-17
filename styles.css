@@ -38,7 +38,7 @@ nav{
 
 nav .left a {
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -56,6 +56,7 @@ nav .right a:last-child {
 
 nav .right a span{
   margin-left: 5px;
+  font-size: 16px;
 }
 
 /* SECTION 1: Hero */
@@ -71,10 +72,12 @@ nav .right a span{
 
 .hero-section .text{
   flex: 5;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .hero-section .text h2 {
-  font-size: 45px;
+  font-size: 52px;
 }
 
 .hero-section .text .links{
@@ -117,12 +120,13 @@ nav .right a span{
 
 .skills-section h2{
   text-align: center;
-  font-size: 35px;
+  font-size: 42px;
 }
 
 .skills-section .text{
-  text-align: center;
+  text-align: justify;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .skills-section .cells{
@@ -152,7 +156,7 @@ nav .right a span{
 }
 
 .skills-section .cells .cell span{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* SECTION 3: Testimony Section */
@@ -162,7 +166,7 @@ nav .right a span{
 }
 
 .testimony-section h2{
-  font-size: 35px;
+  font-size: 42px;
   margin-bottom: 30px;
 }
 
@@ -170,6 +174,7 @@ nav .right a span{
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-bottom: 40px;
 }
 
 .testimony-section .group .person-details{
@@ -186,7 +191,8 @@ nav .right a span{
 }
 
 .testimony-section .group .person-details p{
-  font-weight: 600px;
+  font-weight: 600;
+  font-size: 18px;
 }
 .testimony-section .group .person-details p:last-child{
   font-weight: normal;
@@ -194,6 +200,8 @@ nav .right a span{
 
 .testimony-section .group .text{
   flex: 8;
+  font-size: 18px;
+  text-align: justify;
 }
 
 /* SECTION 4:CONTACT */
@@ -203,7 +211,7 @@ nav .right a span{
 }
 
 .contact-section h2{
-  font-size: 35px;
+  font-size: 42px;
 }
 
 .contact-section .group{
@@ -214,12 +222,20 @@ nav .right a span{
 .contact-section .group .text{
   flex: 3;
   margin-top: 20px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .contact-section .group form{
   flex: 3;
   display: flex;
   flex-direction: column;
+}
+
+.contact-section .group form label{
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
 }
 
 .contact-section .group form input, 
@@ -231,10 +247,11 @@ nav .right a span{
   margin-bottom: 15px;
   outline: none;
   resize: none;
+  font-size: 16px;
 }
 
 .contact-section .group form button{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   background-color: var(--link-color);
